@@ -26,7 +26,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract pickup project
-        run: unzip -q pickup-android-v2.zip
+        run: unzip -q pickup-android-v3-fixed.zip
 
       - name: Build APK
         working-directory: pickup-android
